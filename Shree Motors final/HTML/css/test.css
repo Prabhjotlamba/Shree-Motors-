@@ -1,0 +1,41 @@
+    .headershowroom {
+        background-color: #1a1a21;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    
+    .headingshowroom {
+        width: 100%;
+        height: 30vh;
+        text-align: center;
+        padding-top: 5%;
+    }
+    
+    #containershowroom {
+        display: flex;
+        padding: 5% 0%;
+    }
+    
+    .blackbox {
+        padding: 0px 0px 2px 80px;
+    }
+    
+    #carouselExampleControls {
+        box-shadow: -10px 10px 5px black;
+    }
+    
+    .allsideimg {
+        display: grid;
+        text-align: center;
+    }
+    
+    .imgview {
+        margin: auto;
+    }
+    
+    @media all and (max-width: 800px) {
+        #containershowroom {
+            display: flex;
+            flex-direction: column;
+        }
+    }
